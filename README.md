@@ -1,6 +1,8 @@
 # carPricePrediction
 Content : CarPricePrediction with Multi-LinearRegression , with RFE &amp; VIF . 
 
+Description : Improved r2 score by 72% through feature engineering ( RFE & VIF analysis ) 
+
 Dataset from : https://www.kaggle.com/datasets/hellbuoy/car-price-prediction . 
 
 Results : 
