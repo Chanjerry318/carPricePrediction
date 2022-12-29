@@ -1,12 +1,15 @@
 # carPricePrediction
-Content : CarPricePrediction with Multi-LinearRegression , with RFE &amp; VIF . 
+Content : CarPricePrediction with Multi-LinearRegression , with RFECV , VIF , RidgeCV & CV . 
 
-Description : Improved r2 score by 72% through feature engineering ( RFE & VIF analysis ) 
+Description : 
+  - Reduce generalisation error by 15% ( by 1)RidgeCV & 2)Cross validation ) 
+  - Maintain model performance after RFECV & VIF
 
 Dataset from : https://www.kaggle.com/datasets/hellbuoy/car-price-prediction . 
 
 Results : 
 
-r2 score of train set is : 0.923
-
-r2 score of test set is : 0.9028384848014033
+performance test set : 
+  - r2 score : 0.911425 
+  - adj r2 score : 0.918875 -
+  -  RMSE : 0.328185
